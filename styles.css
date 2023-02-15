@@ -1,0 +1,292 @@
+:root{
+   --phone:#e93b81;
+   --email:#6ab5b9;
+   --location:#c17ceb;
+   --html:#e44d26;
+   --css:#1572b6;
+   --js:#f0db4f;
+   --node:#83cd29;
+   --react:#61dafb;
+   --linkedin:#0072b1;
+   --instagram:#bc2a8d;
+}
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   font-family: poppins,sans-serif;
+}
+
+body{
+   background: linear-gradient(45deg,#2F4F4F,#C0C0C0);
+}
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100%;
+   width: 100%;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.perfil-card{
+   background:#363636;
+   width: 400px;
+   padding: 3rem;
+   border-radius: 10px;
+   min-height: 400px;
+   position: relative;
+   color:#F8F8FF;
+   margin: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+
+.perfil-card .perfil-pic{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   overflow: hidden;
+   border: 15px solid #1d1d1d;
+   box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
+}
+
+.perfil-pic img{
+   height: 100%;
+   width: 100%;
+   transition: 0.5s;
+}
+
+.perfil-pic:hover{
+   transform: scale(1.2);
+}
+
+
+.perfil-card .perfil-details{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+}
+
+ .perfil-details .intro{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .perfil-details .intro h2{
+   margin-top: 30px;
+}
+
+.perfil-details .intro h4{
+   background: #1d1d1d;
+   font-weight: 400;
+   border-radius: 4px;
+   padding: 5px 10px;
+   margin: 8px;
+}
+
+.perfil-details .intro .rede-social{
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+
+.perfil-details .intro .rede-social i{
+   color: #F8F8FF;
+   background-color: #222;
+   font-size: 20px;
+   margin: 10px;
+   height: 40px;
+   width: 40px;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 20px;
+   transition: 0.5s;
+}
+
+.perfil-details .intro .rede-social i:hover{
+   border: 1px solid;
+   transform: scale(1.2);
+}
+
+.perfil-details .contact{
+   background-color: #1d1d1d;
+   padding: 15px;
+   border-radius: 10px;
+   width: 100%;
+}
+
+.perfil-details .contact .row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid;
+   padding: 10px 0;
+   margin-bottom: 10px;
+}
+
+
+.contact .row .icon{
+   height: 40px;
+   width: 40px;
+   line-height: 40px;
+   border-radius: 5px;
+   background-color: #111;
+   text-align: center;
+   color: #F8F8FF;
+   transition: 0.5s;
+}
+
+.row .icon:hover{
+   border: 1px solid;
+}
+
+.row .content{
+  min-width: 70%;
+}
+
+.row .content span{
+   font-size: 12px;
+}
+
+.download-btn{
+ color: #F8F8FF;
+ background-color: darkgreen;
+ padding: 1rem 3rem;
+ border-radius: 30px;
+ margin-top: 1.5rem;
+ border: none;
+ transition: 0.5;
+}
+
+.download-btn:hover{
+   transform: scale(1.2);
+}
+
+footer{
+   font-size: 16px;
+   color:#F8F8FF;
+   border: 1px solid #363636;
+   border-radius: 5px;
+   background-color: #363636;
+   text-align: center;
+   padding: 1rem;
+   margin-top: 1rem;
+}
+
+
+/** Sobre tecnologias **/
+
+ .mytechs i{
+   font-size: 50px;
+ }
+
+
+.sobre h2{
+   color:#F8F8FF ;
+   font-size: 2rem;
+   margin: 0.5rem 0;
+   text-align: center;
+}
+
+
+.sobre{
+   background-color: #363636;
+   max-width: 800px;
+   padding: 2rem 3rem;
+   border-radius: 10px;
+}
+
+.sobre h1{
+   color: #F8F8FF;
+   margin-bottom: 1.1rem;
+   position: relative;
+   display: inline-block;
+   font-size: 3.5rem;
+}
+
+
+.sobre p{
+   color:#F8F8FF ;
+   margin: 1.5rem 0;
+}
+
+.sobre .tech{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   grid-template-rows: auto;
+}
+
+.sobre h2{
+   color: #F8F8FF;
+   margin-bottom: 1.1rem;
+   position: relative;
+   display: inline-block;
+   font-size: 3.5rem;
+   }
+
+   
+
+
+.tech .mytechs{
+   display: flex;
+   justify-content: space-between;
+   border-radius: 8px;
+   border: 1px solid #1d1d1d;
+   padding: 1rem;
+   margin: 1rem;
+}
+
+.tech .mytechs:hover{
+   border: 1px solid #F8F8FF;
+   transform: scale(1.1);
+}
+
+
+.tech .mytechs i:hover{
+    transform: scale(1.2);
+}
+
+.tech .mytechs .sobretech{
+   width: 80%;
+   color:#F8F8FF ;
+}
+
+.tech .mytechs .sobretech h3{
+   color: #F8F8FF;
+   margin-bottom: 3px;
+}
+
+.tech .mytechs .sobretech p{
+   margin: 0px;
+}
+
+/** RESPOSIVIDADE **/
+
+@media(max-width:768px)
+{
+   .sobre{
+      width: 1005;
+      max-width: 400px;
+      padding: 1rem;
+      margin: 1rem;
+   }
+
+   .sobre h1{
+      font-size: 2.2rem;
+   }
+   .sobre .tech{
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(4,auto);
+   }
+   
+}
